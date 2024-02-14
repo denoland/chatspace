@@ -12,7 +12,6 @@ import * as $workspace_workspaceId_ from "./routes/workspace/[workspaceId].tsx";
 import * as $workspace_index from "./routes/workspace/index.tsx";
 import * as $ChatContent from "./islands/ChatContent.tsx";
 import * as $ChatUI from "./islands/ChatUI.tsx";
-import * as $Counter from "./islands/Counter.tsx";
 import * as $Sidebar from "./islands/Sidebar.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -33,7 +32,6 @@ const manifest = {
   islands: {
     "./islands/ChatContent.tsx": $ChatContent,
     "./islands/ChatUI.tsx": $ChatUI,
-    "./islands/Counter.tsx": $Counter,
     "./islands/Sidebar.tsx": $Sidebar,
   },
   baseUrl: import.meta.url,
